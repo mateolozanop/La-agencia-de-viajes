@@ -1,3 +1,141 @@
+/* ==========================
+   RESET CSS
+========================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ==========================
+   ESTILOS GLOBALES
+========================== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f7fa;
+    color: #333333;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+    color: #003566;
+}
+
+p {
+    color: #4f4f4f;
+}
+
+/* ==========================
+   HEADER
+========================== */
+header {
+    text-align: center;
+    padding: 50px 25px;
+}
+
+header h1 {
+    margin-bottom: 15px;
+    font-size: 2.3rem;
+}
+
+header p {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* ==========================
+   MENÚ PRINCIPAL
+========================== */
+nav {
+    background-color: #003566;
+}
+
+nav ul {
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffd60a;
+}
+
+/* ==========================
+   SECCIONES
+========================== */
+section {
+    padding: 20px;
+}
+
+section h2 {
+    margin-bottom: 15px;
+}
+
+/* ==========================
+   BOTONES
+========================== */
+button {
+    background-color: #003566;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #00509d;
+}
+
+/* ==========================
+   FOOTER
+========================== */
+footer {
+    background-color: #003566;
+    color: white;
+}
+
+footer h3 {
+    color: white;
+}
+
+footer p {
+    color: white;
+}
+
+footer a {
+    color: #ffd60a;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: white;
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    article {
+        width: 100%;
+    }
+
+    form {
+        width: 95%;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+}
+
 nav {
 
     width: 100%;
